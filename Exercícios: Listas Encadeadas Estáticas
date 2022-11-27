@@ -1,0 +1,120 @@
+1. Dada uma lista sequencial ordenada L1, escreva métodos em C que:
+a. Verifique se L1 está ordenada ou não (a ordem pode ser crescente ou
+decrescente)
+
+
+b. Faça uma cópia da lista L1 em uma outra lista L2;
+
+
+c. Faça uma cópia da Lista L1 em L2, eliminando elementos repetidos;
+
+
+d. Inverta L1 colocando o resultado em L2;
+
+
+e. Inverta L1 colocando o resultado na própria L1;
+
+
+f. Intercale L1 com a lista L2, gerando a lista L3. considere que L1, L2 e L3 são
+ordenadas.
+
+
+g. Gere uma lista L2 onde cada registro contém dois campos de informação: elem
+contém um elemento de L1, e count contém quantas vezes este elemento
+aparece em L1.
+h. Elimine de L1 todas as ocorrências de um elemento dado, L1 ordenada.
+i. Assumindo que os elementos da lista L1 são inteiros positivos, forneça os
+elementos que aparecem o maior e o menor número de vezes (forneça os
+elementos e o número de vezes correspondente)
+
+
+
+2. Utilize uma lista como a que implementamos em sala de aula, com 50 slots;
+a. Crie uma nova função de inserção de dados na lista de inteiros, garantindo que
+o novo elemento x seja inserido antes do valor maior que ele e depois do valor
+menor que ele, para que a lista sempre fique em ordem crescente;
+b. Crie uma outra função que garanta a inserção de números em ordem
+decrescente. Inspire-se na letra anterior;
+
+
+
+3. Usando listas, crie um programa que guarde strings. Re-implemente todas as
+funcionalidades para que seja possível usar as funções básicas de inserção, remoção,
+busca e detecção de fim de lista;
+a. Implemente também a função que retorna o tamanho da lista (quantidade de
+elementos), e a perda de memória (total da lista - quantidade de itens vazios)
+
+
+
+4. Implemente um TAD Lista utilizando Array, acrescentando as seguintes operações:
+a. Concatenação de duas listas.
+b. Divisão de uma lista em duas.
+c. Cópia de uma lista.
+d. Pesquisa por um elemento na lista.
+
+
+
+5. Considere listas dinâmicas implementadas por encadeamento simples, então pede-se
+para implementar funções que:
+a. Localize/ Pesquise/Encontre (search) elementos
+b. Concatenar/intercalar (Merge) duas listas
+c. Dividir uma lista em várias (k)
+d. Copiar uma lista
+e. Ordenar (sort) ima lista por ordem crescente/decrescente
+
+
+
+6. Escreva uma função em C para trocar os elementos m e n de uma lista dinâmica (m e n
+podem ser chaves ou mesmo ponteiros para os elementos – a escolha é sua).
+
+
+
+7. Escreva uma função em C para trocar os elementos de índice m e n de uma lista.
+
+
+
+8. Escreva uma rotina, inssub(l1,i1,l2,i2,len) para inserir os elementos da lista
+l2, começando no elemento i2 e continuando por len elementos na lista l1, começando
+
+na posição i1. Nenhum elemento da lista l1 deverá ser removido ou substituído. Se i1
+>= length(l1) (onde length(l1) indica o número de nós na lista), ou se i2 + len >
+length(l2), ou se i1 < 0, ou se i2 < 0, ou se i1 +len > maxlength(l1) (onde maxlenght(l1)
+indica o número máximo de nós na lista l1), imprima uma mensagem de erro. A lista l2
+deve permanecer inalterada.
+
+
+
+9. Você foi contratado pela Google para refazer o Orkut. A sua primeira tarefa é
+implementar uma estrutura de dados para representar as relações de amizade dentro
+do Orkut. Ou seja, para cada pessoa cadastrada você tem que armazenar a sua lista
+de amigos. Considere que cada pessoa no Orkut tem um identificador único que é um
+número inteiro.
+a. Declare os tipos necessários para a implementação dessa estrutura.
+b. Escreva um procedimento para cadastrar dois amigos:
+void Relaciona(int Amigo1, int Amigo2, TipoOrkut* pOrkut)
+Considere que o Amigo1 já está cadastrado no Orkut, enquanto o Amigo2 pode ou não
+já estar cadastrado.
+
+
+
+10. Considere a implementação de listas encadeadas utilizando apontadores vista em
+sala. Escreva um procedimento Troca(TipoLista* pLista, TipoCelula* p) que, dado um
+apontador para uma célula qualquer (p), troca de posição essa célula com a sua célula
+seguinte da lista, como mostrado na figura abaixo. (Obs. Não vale trocar apenas o
+campo item! Você deverá fazer a manipulação dos apontadores para trocar as duas
+células de posição). Não esqueça de tratar os casos especiais.
+
+
+
+11. Considere a implementação de listas encadeadas utilizando apontadores vista em sala
+e responda a seguinte pergunta:
+a. Escreva uma função void Inverte(TipoLista *Lista) que, dada uma lista com um
+número qualquer de elementos, inverte a ordem dos elementos da lista, como
+exemplificado na figura abaixo. (Obs. Não vale trocar apenas os campos item
+ou usar uma lista / fila / pilha auxiliar! Você deverá fazer a manipulação dos
+apontadores para trocar as células de posição).
+
+
+
+12. Escreva uma função que obtém o espelho de uma árvore, ou seja, troca a subárvore
+direita pela subárvore esquerda de todos os nós da árvore
